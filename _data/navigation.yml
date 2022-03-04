@@ -1,0 +1,20 @@
+- name: Home
+  link: /
+- name: About
+  link: /about.html
+- name: News
+  link: /news.html
+- name: Workshops
+  link: /workshops.html
+- name: Approvals
+  link: /approvals.html
+- name: Sales
+  link: /sales.html
+- name: Meet us
+  link: /staff.html
+- name: Contacts
+  link: /contact.html
+- name: Location
+  link: /location.html
+- name: Careers
+  link: /careers.html
