@@ -1,5 +1,18 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    background: url(/assets/images/Bottom_texture.jpg) repeat;
+    background: url(/assets/images/bg-default.webp) repeat-x;
+    color:#464646;
+}
+
+h1, h2, h3 {
+    color: #ff8400;
+}
+
+.min-100 {
+    min-height: 100%;
 }
 
 .navbar-nav {
@@ -13,5 +26,5 @@ body {
 }
 
 .container.main {
-        background: #fff;
+        background: #f0f0f0;
 }
