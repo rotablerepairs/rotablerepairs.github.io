@@ -1,18 +1,17 @@
-html, body {
-    height: 100%;
+body {
+    background: #f0f0f0;
+    color:#464646;
 }
 
-body {
-    background: url(/assets/images/bg-default.webp) repeat-x;
-    color:#464646;
+a {
+    color: inherit;
+    &:hover {
+        color: rgb(230, 69, 15);
+    }
 }
 
 h1, h2, h3 {
     color: rgb(230, 69, 15);
-}
-
-.min-100 {
-    min-height: 100%;
 }
 
 .navbar-nav {
@@ -30,4 +29,20 @@ h1, h2, h3 {
 
 #main {
         background: #f0f0f0;
+}
+
+footer {
+    background: url(/assets/images/Bottom_texture.jpg) repeat #464646;
+    color: #fff;
+    .list-group-item {
+        background-color: transparent;
+        border: 1px solid #464646;
+    }
+    .footer-social {
+        a {
+            color: #fff;
+            text-decoration: none;
+            
+        }
+    }
 }
