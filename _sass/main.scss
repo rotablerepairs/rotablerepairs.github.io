@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #ff8400;
+    color: rgb(230, 69, 15);
 }
 
 .min-100 {
@@ -19,12 +19,15 @@ h1, h2, h3 {
     .nav-item {
         &.active {
             .nav-link {
-                color:#ff8400;
+                color: rgb(230, 69, 15);
             }
+        }
+        .nav-link {
+            font-weight: 500;
         }
     }
 }
 
-.container.main {
+#main {
         background: #f0f0f0;
 }
