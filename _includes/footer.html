@@ -3,18 +3,8 @@
         <div class="row">
             <div class="col-md-4 footer-brand">
                 <h4>Rotable Repairs Limited</h4>
-                <p>20 Progress Road, Leigh-on-Sea, Essex SS9 5PR</p>
+                <p>20 Progress Road<br>Leigh-on-Sea<br>Essex SS9 5PR</p>
                 <p>© 2022 Rotable Repairs Ltd</p>
-            </div>
-            <div class="col-md-4 footer-nav">
-                <h4>Menu</h4>
-                <ul class="pages">
-                    <!-- {% for item in site.data.navigation %}
-                    <li class="nav-item">
-                    <a href="{{ item.link }}" class="nav-link {{ item.name}}">{{ item.name}}</a>
-                    </li>
-                    {% endfor %} -->
-                </ul>
             </div>
             <div class="col-md-4 footer-social">
                 <h4>Follow Us</h4>
@@ -23,6 +13,15 @@
                     <li class="list-group-item"><a href="#"><i class="bi bi-twitter"></i> Twitter</a></li>
                     <li class="list-group-item"><a href="#"><i class="bi bi-rss"></i> RSS</a></li>
                 </ul>
+            </div>
+            <div class="col-md-4 footer-nav">
+                <h4>Sitemap</h4>
+                    <p>
+                    {% for item in site.data.navigation %}
+                        <a href="{{ item.link }}">{{ item.name}}</a>
+                    {% endfor %}
+                    </p>
+                    <a href="#"><i class="bi bi-filetype-xml"></i> Sitemap XML</a>
             </div>
         </div>
     </div>

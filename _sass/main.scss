@@ -1,4 +1,5 @@
 body {
+    font-family: Heebo, Helvetica, sans-serif;
     background: #f0f0f0;
     color:#464646;
 }
@@ -11,7 +12,9 @@ a {
 }
 
 h1, h2, h3 {
-    color: rgb(230, 69, 15);
+    font-weight: bold;
+    color: #e6450f;
+    text-shadow: 1px 1px 2px #ababab;
 }
 
 .navbar-nav {
@@ -34,15 +37,13 @@ h1, h2, h3 {
 footer {
     background: url(/assets/images/Bottom_texture.jpg) repeat #464646;
     color: #fff;
+    a {
+        color: #fff;
+        text-decoration: none;
+        
+    }
     .list-group-item {
         background-color: transparent;
         border: 1px solid #464646;
-    }
-    .footer-social {
-        a {
-            color: #fff;
-            text-decoration: none;
-            
-        }
     }
 }
